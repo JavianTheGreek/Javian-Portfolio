@@ -1,0 +1,329 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html,
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url(img/zeus-back-1.jpg);
+    color: #fff;
+    min-height: 150vh;
+    scroll-behavior: smooth;
+}
+
+section .Zeus {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.Zeus img {
+    display: flex;
+    align-items: center;
+    border-radius: 4rem;
+}
+
+.Zeus-Txt h1 {
+    position: relative;
+    font-size: 4em;
+}
+
+.Zeus-Txt,
+.zeus-txt-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projList {
+    margin: 15px 200px;
+    padding: 3rem;
+    border: 1px solid slateblue;
+}
+
+
+/*  Socials */
+
+ul.social-network {
+    display: inline;
+    margin-left: 33rem !important;
+    padding: 0px
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 30px
+}
+
+.social-network a.icoGithub:hover {
+    background-color: #4078c0;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #0e76a8;
+}
+
+.social-network a.icoGithub:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: whitesmoke;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: flex;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.5s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+    margin: 1rem;
+}
+
+.pro-logo {
+    display: inline;
+    margin: 4%;
+}
+
+
+/*.zeus-work {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 700px 200px;
+    place-items: center;
+}*/
+
+.ico {
+    font-size: 20px;
+}
+
+
+/*  Scroll-Bar  */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/*
+.late-evening-time::-webkit-scrollbar-thumb,
+.late-evening-time *::-webkit-scrollbar-thumb {
+    b
+}*/
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    opacity: 1;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    background: #000;
+}
+
+
+/*  Contact Form    */
+
+.contactForm label {
+    display: show;
+}
+
+.box-warper {
+    padding: 20px;
+    font-family: inconsolata, monospace;
+    font-size: 25px;
+    font-size: 1.5rem;
+    width: 800px;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+#contactForm .inputWrap {
+    position: relative;
+    margin-bottom: 30px;
+    margin-bottom: 2rem;
+    top: 0;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid slateblue;
+    background: 0 0;
+    display: block;
+    font-family: inconsolata, monospace;
+    font-size: 25px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    outline: none;
+}
+
+#contact .textAreaWrap {}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+.contactForm .styledLabel {
+    text-transform: uppercase;
+    position: absolute;
+    top: -.2em;
+    pointer-events: none;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.submitWrap input {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: block;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+
+/*
+.box-warper {
+    margin: 10%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    color: #00fff0;
+}
+*/
+
+.msg {
+    position: absolute;
+    border: 1px solid slateblue;
+    background: none;
+    color: #00fff0;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0;
+}
+
+.btn {
+    position: flex;
+    width: 15%;
+    background: none;
+    border: 1px solid slateblue;
+    color: lightcyan;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 90px 0;
+}
+
+.toggle-btn,
+a {
+    text-align: center;
+    outline: none;
+}
+
+.btn:hover,
+a:hover {
+    color: lightskyblue;
+    transition-delay: 0.15s;
+}
+
+.btn:active {
+    color: blueviolet;
+    transition-delay: 5s;
+}
+
+
+/* ---- ~~  Footer   ~~ ------*/
+
+footer p {
+    color: black;
+}
+
+.footer {
+    width: auto;
+    display: absolute;
+    overflow: hidden;
+    padding: -10px;
+    box-sizing: border-box;
+}
+
+.inside-footer {
+    color: white;
+    font-size: 12px;
+    text-align: inline;
+    font-family: Arial, Helvetica, fantasy;
+}
+
+.inside-footer {
+    display: center;
+    margin: 15px auto;
+    margin-right: 160px;
+    width: -900px
+}
+
+.inside-footer .logo-holder {
+    width: 25px;
+    height: auto;
+    margin-inline: auto;
+}
+
+.logo-holder img {
+    width: 10px;
+    float: left;
+    height: 100%;
+    margin: -10px auto;
+}
+
+#rCopy {
+    display: flex;
+}
