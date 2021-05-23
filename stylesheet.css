@@ -16,8 +16,9 @@ body {
 }
 
 #zeusCastle {
-    width: 960px;
-    margin: 0px auto;
+    width: 85rem;
+    margin: 16px auto;
+    padding: 5px auto;
 }
 
 @media screen and (max-width:959px) {
