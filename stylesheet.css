@@ -28,13 +28,13 @@ body {
 
 @media screen and (max-width:640px) {
     #zeusCastle {
-        width: 100%;
+        width: fit-content;
     }
 }
 
 @media screen and (max-width:320px) {
     #zeusCastle {
-        width: 320px;
+        width: fit-content;
     }
 }
 
