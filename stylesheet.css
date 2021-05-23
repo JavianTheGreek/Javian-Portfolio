@@ -52,7 +52,7 @@ section .Zeus {
 
 .Zeus-Txt h1 {
     display: flex;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .Zeus-Txt,
