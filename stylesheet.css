@@ -151,6 +151,9 @@ hr {
     transition: 0.5s;
 }
 
+.pro-logo a {
+    text-decoration: none;
+}
 
 /*.zeus-work {
     display: grid;
